@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 61px;
+
+  &__block1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 26px 0;
+
+    &-titles {
+      display: flex;
+      align-items: center;
+      column-gap: 48px;
+
+      li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: normal;
+        color: #1b1b1b;
+        cursor: pointer;
+
+        &::after {
+          content: "";
+          display: block;
+          background: #000;
+          height: 2px;
+          border-radius: 10px 10px 0px 0px;
+          width: 0;
+          transition: 0.5s;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+    }
+
+    &-phone {
+      margin: 0 75px;
+
+      .block {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+
+        &__open {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: normal;
+          color: #b7b7b7;
+          text-align: end;
+        }
+      }
+    }
+
+    &-cart {
+      padding: 12px 16px;
+      background: #f5f5f5;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      .cart {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sum {
+        margin: 0 6px;
+        // position: absolute;
+      }
+
+      .line {
+        content: "";
+        width: 1px;
+        height: 24px;
+        border: 1px solid #fff;
+        margin: 0 16px;
+      }
+
+      .round {
+        width: 16px;
+        height: 16px;
+        background: #e07153;
+        border-radius: 50%;
+        padding: 0.3px 4.5px;
+        color: #fff;
+        position: absolute;
+        // margin-top: -6px;
+        top: 7px;
+        right: 10px;
+        // margin-left: 77px;
+        // margin-bottom: 16px;
+        font-size: 14px;
+      }
+
+      .cart-icon {
+        cursor: pointer;
+      }
+    }
+
+    &-user {
+      padding: 13px 16px;
+      background: #f5f5f5;
+      border-radius: 6px;
+      margin-left: 24px;
+      cursor: pointer;
+    }
+  }
+  &__block2 {
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+
+    &-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      row-gap: 8px;
+    }
+
+    p {
+      color: #000;
+    }
+  }
+}

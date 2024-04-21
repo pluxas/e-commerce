@@ -1,0 +1,185 @@
+.block {
+    padding: 48px 0;
+
+    &__page {
+        margin-bottom: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: normal;
+        color: #000;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        &-name {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: normal;
+            color: #000;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: normal;
+            color: #B7B7B7;
+        }
+        
+        select {
+            width: 300px;
+            height: 50px;
+            padding: 0 20px;
+            border: 1px solid #E2E1E1;
+            border-radius: 8px;
+        }
+    }
+
+    &__product {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 24px;
+        row-gap: 24px;
+
+        &-product {
+            width: 392px;
+            background: #fffcfc;
+
+            .block__image {
+                position: relative;
+
+                &-icon {
+                    position: absolute;
+                    top: 16px; 
+                    right: -15px;
+                    z-index: 99;
+                }
+
+                div {
+                    position: absolute;
+                    top: 12px;
+                    left: 8px;
+                }
+            }
+
+            .block__about {
+                padding: 24px;
+                position: relative;
+
+                &-mass {
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: normal;
+                        color: #B7B7B7;
+                    }
+
+                    div {
+                        width: 4px;
+                        height: 4px;
+                        background: #E07153;
+                        border-radius: 50%;
+                        margin: 0 8px;
+                    }
+                }
+
+                &-name {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: normal;
+                    color: #1b1b1b;
+                    margin-top: 4px;
+                }
+
+                &-text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: normal;
+                    color: #000;
+                    margin-top: 4px;
+                    height: 57px;
+                }
+
+                &-size {
+                    position: absolute;
+                    top: 20px;
+                    right: 24px;
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        padding: 4px 8px;
+                        background: #F5F5F5;
+                        border-radius: 4px;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: normal;
+                        color: #B7B7B7;
+                        cursor: pointer;
+                        transition: 0.5s;
+                    }
+
+                    p:hover {
+                        background: #E07153;
+                        color: #FFF;
+                    }
+
+                    div {
+                        width: 4px;
+                        height: 4px;
+                        background: #E07153;
+                        border-radius: 50%;
+                        margin: 0 4px;
+                    }
+
+                    span {
+                        position: absolute;
+                        margin-left: 83px;
+                        margin-bottom: 40px;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: normal;
+                        color: #B7B7B7;
+                    }
+                }
+
+                &-footer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    &-text{
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 40px;
+                        color: #000;
+
+                        p:nth-of-type(1) {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #B7B7B7;
+                        }
+
+                        .line {
+                            content: '';
+                            border: 1px solid #B7B7B7;
+                            width: 35px;
+                            margin-top: -10px;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
