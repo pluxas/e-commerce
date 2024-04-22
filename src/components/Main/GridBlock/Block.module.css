@@ -1,0 +1,37 @@
+.block {
+  margin: 140px 0;
+}
+.block__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.block__title h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  color: #000;
+}
+.block__title h1 span {
+  color: #E07153;
+}
+.block__images {
+  display: flex;
+  align-items: center;
+}
+.block .box img:nth-of-type(1) {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.block .box img:nth-of-type(2) {
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+.block .box img:nth-of-type(3) {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.block .box img:nth-of-type(5) {
+  margin-left: 12px;
+}/*# sourceMappingURL=Block.module.css.map */

@@ -1,0 +1,57 @@
+.nav {
+  margin: 56px 0;
+}
+.nav__block {
+  display: flex;
+  align-items: center;
+  background: #F5F9FA;
+  border-radius: 20px;
+}
+.nav__block-left {
+  margin-left: -40px;
+}
+.nav__block-block {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 111px;
+       column-gap: 111px;
+}
+.nav__block-text {
+  margin: 0 0 35px 20px;
+}
+.nav__block-text .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  color: #000;
+}
+.nav__block-text .title span {
+  color: #E07153;
+}
+.nav__block-text .text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  color: #000;
+  margin-top: 8px;
+}
+.nav__block-right {
+  position: absolute;
+  right: 90px;
+}
+.nav__block-more {
+  position: absolute;
+  border: none;
+  outline: none;
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("../../../assets/images/btn.png");
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+  color: #fff;
+  margin-left: 60px;
+  margin-bottom: -425px;
+}/*# sourceMappingURL=Navbar.module.css.map */

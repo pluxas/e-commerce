@@ -1,0 +1,193 @@
+.block {
+  margin: 124px 0;
+}
+.block__header {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.block__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 12px;
+}
+.block__nav-product {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  padding: 18px;
+  background: #fff;
+  border-radius: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.block__nav-product:hover {
+  color: #fff;
+  background: orange;
+}
+.block__products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  row-gap: 24px;
+}
+.block__products-product {
+  width: 392px;
+  background: #fffcfc;
+}
+.block__products-product .block__image {
+  position: relative;
+}
+.block__products-product .block__image-icon {
+  position: absolute;
+  top: 16px;
+  right: -15px;
+  z-index: 99;
+}
+.block__products-product .block__image div {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+.block__products-product .block__about {
+  padding: 24px;
+  position: relative;
+}
+.block__products-product .block__about-mass {
+  display: flex;
+  align-items: center;
+}
+.block__products-product .block__about-mass p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #b7b7b7;
+}
+.block__products-product .block__about-mass div {
+  width: 4px;
+  height: 4px;
+  background: #e07153;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+.block__products-product .block__about-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: normal;
+  color: #1b1b1b;
+  margin-top: 4px;
+}
+.block__products-product .block__about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #000;
+  margin-top: 4px;
+  height: 57px;
+}
+.block__products-product .block__about-size {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+}
+.block__products-product .block__about-size p {
+  padding: 4px 8px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: #b7b7b7;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.block__products-product .block__about-size p:hover {
+  background: #e07153;
+  color: #fff;
+}
+.block__products-product .block__about-size div {
+  width: 4px;
+  height: 4px;
+  background: #e07153;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.block__products-product .block__about-size span {
+  position: absolute;
+  margin-left: 83px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: normal;
+  color: #b7b7b7;
+}
+.block__products-product .block__about-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block__products-product .block__about-footer-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000;
+}
+.block__products-product .block__about-footer-text p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b7b7b7;
+}
+.block__products-product .block__about-footer-text .line {
+  content: "";
+  border: 1px solid #b7b7b7;
+  width: 35px;
+  margin-top: -10px;
+}
+.block__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 63px;
+}
+.block__footer-left {
+  display: flex;
+  align-items: center;
+}
+.block__footer-left p {
+  margin: 0 16px;
+  cursor: pointer;
+}
+.block__footer-right {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  cursor: pointer;
+}
+.block__footer-right h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: normal;
+  color: #e07153;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 13px 59px;
+  background: #e07153;
+  background-image: url("../../../assets/images/back.png");
+  border-radius: 1px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=Categories.module.css.map */

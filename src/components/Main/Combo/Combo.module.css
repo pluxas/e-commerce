@@ -1,0 +1,150 @@
+.block {
+  margin: 90px 0;
+}
+.block__header {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.block__header-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: normal;
+  color: #000;
+}
+.block__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block__list-product {
+  background: #fffcfc;
+  padding: 10px;
+  width: 392px;
+}
+.block__list-product .img {
+  display: flex;
+}
+.block__list-product .img__text {
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+.block__list-product .texts {
+  margin: 40px 0;
+}
+.block__list-product .texts__mass {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #B7B7B7;
+}
+.block__list-product .texts__mass div {
+  width: 4px;
+  height: 4px;
+  background: #E07153;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+.block__list-product .texts__mass h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: normal;
+  color: #1b1b1b;
+}
+.block__list-product .texts__mass p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #1b1b1b;
+}
+.block__list-product .texts__size {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 270px;
+}
+.block__list-product .texts__size p {
+  padding: 4px 8px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: #B7B7B7;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.block__list-product .texts__size p:hover {
+  background: #E07153;
+  color: #FFF;
+}
+.block__list-product .texts__size div {
+  width: 4px;
+  height: 4px;
+  background: #E07153;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.block__list-product .texts__size span {
+  position: absolute;
+  margin-left: 83px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: normal;
+  color: #B7B7B7;
+}
+.block__list-product .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block__list-product .footer__price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000;
+}
+.block__list-product .footer__price span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B7B7B7;
+}
+.block__list-product .footer__price .line {
+  content: "";
+  border: 1px solid #B7B7B7;
+  width: 44px;
+  margin-top: -13px;
+}
+.block__right {
+  position: absolute;
+  right: 80px;
+  margin-top: -300px;
+}
+
+.bg {
+  position: absolute;
+  margin-top: -750px;
+  left: 0;
+  z-index: -99;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 13px 59px;
+  background: #E07153;
+  background-image: url("../../../assets/images/back.png");
+  border-radius: 1px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  color: #FFF;
+  cursor: pointer;
+}/*# sourceMappingURL=Combo.module.css.map */

@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 61px;
+       column-gap: 61px;
+}
+.header__block1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 26px 0;
+}
+.header__block1-titles {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+}
+.header__block1-titles li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+.header__block1-titles li::after {
+  content: "";
+  display: block;
+  background: #000;
+  height: 2px;
+  border-radius: 10px 10px 0px 0px;
+  width: 0;
+  transition: 0.5s;
+}
+.header__block1-titles li:hover::after {
+  width: 100%;
+}
+.header__block1-phone {
+  margin: 0 75px;
+}
+.header__block1-phone .block {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.header__block1-phone .block__open {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
+  color: #b7b7b7;
+  text-align: end;
+}
+.header__block1-cart {
+  padding: 12px 16px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header__block1-cart .cart {
+  display: flex;
+  flex-direction: column;
+}
+.header__block1-cart .sum {
+  margin: 0 6px;
+}
+.header__block1-cart .line {
+  content: "";
+  width: 1px;
+  height: 24px;
+  border: 1px solid #fff;
+  margin: 0 16px;
+}
+.header__block1-cart .round {
+  width: 16px;
+  height: 16px;
+  background: #e07153;
+  border-radius: 50%;
+  padding: 0.3px 4.5px;
+  color: #fff;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-size: 14px;
+}
+.header__block1-cart .cart-icon {
+  cursor: pointer;
+}
+.header__block1-user {
+  padding: 13px 16px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.header__block2 {
+  display: flex;
+  padding: 12px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__block2-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  row-gap: 8px;
+}
+.header__block2 p {
+  color: #000;
+}/*# sourceMappingURL=Header.module.css.map */

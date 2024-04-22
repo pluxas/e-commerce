@@ -1,0 +1,27 @@
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.block__free, .block__deliver, .block__give, .block__fresh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block__free-img, .block__deliver-img, .block__give-img, .block__fresh-img {
+  margin-bottom: -40px;
+}
+.block__free h2, .block__deliver h2, .block__give h2, .block__fresh h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  color: #000;
+  margin-top: 12px;
+}
+.block__free p, .block__deliver p, .block__give p, .block__fresh p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #000;
+}/*# sourceMappingURL=About.module.css.map */

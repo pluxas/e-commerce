@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+}/*# sourceMappingURL=font.css.map */

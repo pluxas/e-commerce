@@ -1,0 +1,67 @@
+.block {
+  margin: 50px 0;
+}
+.block__header {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.block__header h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: normal;
+  color: #000;
+}
+.block__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 41px;
+}
+.block__list-first, .block__list-second, .block__list-third {
+  width: 392px;
+  height: 270px;
+  background: #D2F6FF;
+  padding: 24px;
+  z-index: -2;
+  position: relative;
+}
+.block__list-first-title, .block__list-second-title, .block__list-third-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: normal;
+}
+.block__list-first-text, .block__list-second-text, .block__list-third-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  margin-top: 5px;
+}
+.block__list-first .svg, .block__list-second .svg, .block__list-third .svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.block__list-first-img, .block__list-second-img, .block__list-third-img {
+  position: absolute;
+  left: 0;
+  top: 155px;
+  z-index: -1;
+}
+.block__list-second {
+  width: 392px;
+  height: 270px;
+  background: #FFD8DA;
+  padding: 24px;
+  z-index: -2;
+  position: relative;
+}
+.block__list-third {
+  width: 392px;
+  height: 270px;
+  background: #DBFFCF;
+  padding: 24px;
+  z-index: -2;
+  position: relative;
+}/*# sourceMappingURL=Sale.module.css.map */
