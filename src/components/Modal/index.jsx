@@ -26,15 +26,7 @@ const Modal = ({ openModal, setOpenModal }) => {
     setCart(
       cart.map((item) => {
         if (item.id === id) {
-          // return {
-          //  ...item,
-          //   count: item.count++,
-          //   // log: console.log(item.count)
-          // };
-          console.log(item);
-          // return {
-          //   count : item.count = 2
-          // }
+          console.log(item.count =+ 1);
         }
         return item;
       })
