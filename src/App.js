@@ -1,4 +1,3 @@
-
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -23,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="asd"></div>
       <div className="container">
         <Modal setOpenModal={setOpenModal} openModal={openModal} />
